@@ -1,0 +1,144 @@
+.profilescreen{
+    height: 100vh;
+    color: white;
+}
+.profile_body{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 8%;
+    max-width: 800px;
+}
+.profile_info{
+    display: flex;
+}
+.profile_info>img{
+    height: 100px;
+}
+.profile_body>h1{
+    font-size: 60px;
+    font-weight: 400;
+    border-bottom: 1px solid #282c2d;
+}
+.profile_details{
+    color: white;
+    margin-left: 25px;
+    flex: 1;
+
+}
+.profile_details>h2{
+    background-color: gray;
+    padding: 15px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+.profile_signout{
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-top: 5%;
+    width: 100%;
+    color: white;
+    background-color: #e50914;
+    cursor: pointer;
+    border: none;
+}
+.profile_plans{
+    margin-top: 20px;
+}
+.profile_plans>h3{
+    border-bottom: 1px solid #282c2d;
+    padding-bottom: 10px;
+}
+.plan{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+     
+     
+}
+.plan1{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #282c2d;
+    justify-content: space-between;
+    
+}
+.plan1>p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.plan1:hover{
+    background-color: #646e70;
+}
+.plan2:hover{
+    background-color: #7a7d7e;
+}
+
+
+.plan1>button{
+    width: 39%;
+    height: 40px;
+    color: white;
+    background-color: #e50914;
+    cursor: pointer;
+    border: none;
+}
+.plan2{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #282c2d;
+    justify-content: space-between;
+    
+}
+.plan2>p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.plan2>button{
+    width: 39%;
+    height: 40px;
+    color: white;
+    background-color: #e50914;
+    cursor: pointer;
+    border: none;
+}
+.plan3{
+    display: flex;
+    padding: 20px 0;
+    border-bottom: 1px solid #282c2d;
+    justify-content: space-between;
+    
+}
+.plan3>p{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.plan3>button{
+    width: 42%;
+    height: 40px;
+    color: white;
+    background-color:gray;
+    cursor: pointer;
+    border: none;
+}
+@media  screen and (max-width:426px){
+    .profile_body{
+        width: 100%;
+    }
+    .profile_body>h1{
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .profile_info{
+        justify-content: space-around;
+    }
+    .profile_info>img {
+        height: 50px;
+    }
+    .profile_details{
+        flex: none;
+    }
+}
